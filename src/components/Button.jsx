@@ -1,12 +1,5 @@
-export const Button=()=>{
-    return <button>Add to Cart</button>
-};
+function Button({label}) {
+    return <button className="border-2 border-blue-500 py-2 px-5 rounded-full text-blue-500 hover:bg-blue-500 hover:text-white">{label}</button>
+}
 
-export const Button1=()=>{
-    return <button>Add to Cart</button>
-};
-
-export const Button2=()=>{
-    return <button>Register</button>
-};
-
+export default Button;
