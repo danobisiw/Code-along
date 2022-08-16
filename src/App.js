@@ -3,7 +3,8 @@
 // import  {Image}  from "./components/Image";
 // import NavBar from "./components/NavBar";
 // import Practice from "./components/Practice"; for the image in practice folder
-import TaskManager from "./components/TaskManager";
+// import TaskManager from "./components/TaskManager";
+import Form from "./components/Form.jsx"
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     <Button label="Login"/>
   <Image/> */}
   {/* <Practice/> */}
-  <TaskManager/>
+  {/* <TaskManager/> */}
+  <Form/>
   </div>
 
   )
